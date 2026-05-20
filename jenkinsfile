@@ -3,19 +3,19 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo This is Build'
+                sh 'echo This is Build of the projacet A'
             }
         }
         stage('Test') {
             steps {
                 
-                sh 'echo This is Test'
+                sh 'echo This is Test of the project B'
             }
         }
         stage('Deploy') {
             steps {
                 
-               sh 'echo This is Deploy'
+               sh 'echo This is Deploy of the project C'
             }
         }
     }
